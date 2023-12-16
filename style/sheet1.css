@@ -9,6 +9,27 @@ rgb(181, 181, 181)
   margin: 0%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #111;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #bdff00;
+  border-radius: 20px;
+  border: 3px solid #111111;
+  height: 50px;
+}
+
+
+
 body {
   background: url(../assets/bg.jpg);
   background-size: cover;
