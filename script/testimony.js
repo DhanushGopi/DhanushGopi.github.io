@@ -8,7 +8,7 @@ export var testimonials = [
     name: "Jamal Azharudeen",
     designation: "Internship Head - Graphic Designing, ABN Junction",
     testimonial:
-      "You have a great skill set and passion to do your works which reflects in the outcome of the works. Keep it up you may reach many heightstime worker, very satisfied work, Good listening skill.",
+      "You have a great skill set and passion to do your works which reflects in the outcome of the works. Keep it up you may reach many heights.",
   },
   {
     name: "Sai saran",
