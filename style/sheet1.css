@@ -124,7 +124,7 @@ body {
 }
 
 .nav button:hover {
-  color: black;
+  color: rgb(238, 191, 0);
 }
 
 .nav button:active {
