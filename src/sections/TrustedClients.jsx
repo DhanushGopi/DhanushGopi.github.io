@@ -8,11 +8,11 @@ export default function TrustedClients(){
         window.open("https://linktr.ee/soulsatisfied_in", "_blank", "noopener,noreferrer");
     };
     const gotoClient2 = () => {
-        window.open("https://dhanushgopi.github.io/portfolio", "_blank", "noopener,noreferrer");
+        window.open("https://www.youtube.com/@designordinary_in", "_blank", "noopener,noreferrer");
     };
 
      const gotoClient3 = () => {
-        window.open("https://dhanushgopi.github.io/portfolio", "_blank", "noopener,noreferrer");
+        window.open("https://danzustudio.github.io/kgas.html", "_blank", "noopener,noreferrer");
     };
 
     return(
