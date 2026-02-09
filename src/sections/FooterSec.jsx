@@ -25,11 +25,11 @@ export default function FooterSec(){
                     <div className="footer-left">
                         <img src={dglogowhite} alt="" />
                         <div className="footer-link socialmap">
-                            <a href="https://www.instagram.com/dhanushgopi_in" className='footer-hyperlink'>Instagram</a>
-                            <a href="https://x.com/dhanushgopi_in" className='footer-hyperlink'>X</a>
+                            <a href="https://www.instagram.com/dhanushgopi.in" className='footer-hyperlink'>Instagram</a>
+                            <a href="https://x.com/dhanushgopi_inn" className='footer-hyperlink'>X</a>
                             <a href="https://www.linkedin.com/in/dhanushgopi/" className='footer-hyperlink'>LinkedIn</a>
                         </div>
-                        <p className='email'>Reach Me : hellodhanushgopi@gmail.com</p>
+                        <p className='email'>Reach Me : reachdhanushgopi@gmail.com</p>
                     </div>
                     <div className="footer-right">
                         <div className="footer-link sitemap">

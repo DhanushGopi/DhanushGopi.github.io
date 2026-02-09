@@ -57,6 +57,7 @@ import bc56 from '../assets/thumbnails/bc56.png';
 import bc57 from '../assets/thumbnails/bc57.png';
 import bc58 from '../assets/thumbnails/bc58.png';
 import bc59 from '../assets/thumbnails/bc59.png';
+import bc60 from '../assets/thumbnails/bc60.png';
 
 import Designchip from '../components/Chips/Designchip';
 import Devchip from '../components/Chips/Devchip';
@@ -156,6 +157,17 @@ import PalleteLogo from '../components/Chips/PalleteLogo';
 
 
 const portfolioData = [
+    {
+    id: 60,
+    title: "Creatives for Zuppa",
+    date: "Jan 2026",
+    image: bc60,
+    description:"Creatives for Zuppa - Task is to create various poster for the Social Media and Mobile UI.",
+    link: "https://www.behance.net/gallery/243791711/Creatives-for-Zuppa",
+    category: "graphicdesign",
+    stack:[<Illustrator/>,<FigmaLogo/>],
+    chip: <Designchip/>,
+    },
     {
     id: 59,
     title: "Kalaiyugam 2025",
@@ -806,6 +818,17 @@ const portfolioData = [
     chip: <Designchip/>,
     },
     //Best works
+    {
+    id: 60,
+    title: "Creatives for Zuppa",
+    date: "Jan 2026",
+    image: bc60,
+    description:"Creatives for Zuppa - Task is to create various poster for the Social Media and Mobile UI.",
+    link: "https://www.behance.net/gallery/243791711/Creatives-for-Zuppa",
+    category: "bestworks",
+    stack:[<Illustrator/>,<FigmaLogo/>],
+    chip: <Designchip/>,
+    },
     {
     id: 58,
     title: "Soul Satisfied",
