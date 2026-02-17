@@ -1,3 +1,4 @@
+import { HashLink } from "react-router-hash-link";
 import howiworkthumbnail from "../assets/mytermsthumbnail.svg"
 import SecBtn from "../components/SecBtn";
 
@@ -29,7 +30,8 @@ export default function MyTerms(){
                 {/* </div> */}
             {/* </div> */}
             <div className="myterms-btns">
-                <TrioBtn extlink={viewPortfolio} btntext="Cancel"/>
+                {/* <TrioBtn extlink={viewPortfolio} btntext="Cancel"/> */}
+                <HashLink smooth to="/#herosec" className='triobtn'>Cancel</HashLink>
                 <SecBtn extlink={viewPortfolio} btntext="Agree"/>
             </div>
         </div>

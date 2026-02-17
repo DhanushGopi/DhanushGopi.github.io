@@ -86,8 +86,8 @@ export default function NavbarBtns() {
             </HashLink>
 
             <HashLink 
-                smooth to="/#clients" 
-                className={`navbar-btn navbar-midbtn ${getActiveLine("/", "#clients")}`}
+                smooth to="/#service" 
+                className={`navbar-btn navbar-midbtn ${getActiveLine("/", "#service")}`}
             >
                 Services
             </HashLink>

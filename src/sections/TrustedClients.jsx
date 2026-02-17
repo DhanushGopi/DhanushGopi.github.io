@@ -5,7 +5,7 @@ import kgaslogo from '../assets/kgaslogo.svg'
 export default function TrustedClients(){
 
     const gotoClient1 = () => {
-        window.open("https://linktr.ee/soulsatisfied_in", "_blank", "noopener,noreferrer");
+        window.open("https://www.instagram.com/soulsatisfied_in", "_blank", "noopener,noreferrer");
     };
     const gotoClient2 = () => {
         window.open("https://www.youtube.com/@designordinary_in", "_blank", "noopener,noreferrer");

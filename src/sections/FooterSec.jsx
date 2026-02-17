@@ -10,8 +10,8 @@ export default function FooterSec(){
         navigate('/#navbar');   
     }
 
-    const viewPortfolio = () =>{
-        window.open("https://dhanushgopi.github.io/portfolio", "_blank", "noopener,noreferrer");
+    const viewMyresume = () =>{
+        window.open("https://drive.google.com/drive/folders/19DiBZWSsP6H7-gpuaiwaE2qGN_a9CDgl", "_blank", "noopener,noreferrer");
     }
 
 
@@ -28,6 +28,7 @@ export default function FooterSec(){
                             <a href="https://www.instagram.com/dhanushgopi.in" className='footer-hyperlink'>Instagram</a>
                             <a href="https://x.com/dhanushgopi_inn" className='footer-hyperlink'>X</a>
                             <a href="https://www.linkedin.com/in/dhanushgopi/" className='footer-hyperlink'>LinkedIn</a>
+                            <button onClick={viewMyresume} className='footer-hyperlink'>My Resume</button>
                         </div>
                         <p className='email'>Reach Me : reachdhanushgopi@gmail.com</p>
                     </div>
@@ -37,7 +38,6 @@ export default function FooterSec(){
                             <HashLink smooth to="/#herosec" className='footer-hyperlink'>Home  </HashLink>
                             {/* <button onClick={viewPortfolio} className='footer-hyperlink'>Portfolio</button> */}
                             <HashLink smooth to="/portfolio#myportfolio" className='footer-hyperlink'>Portfolio  </HashLink>
-                            {/* <button onClick={gotoTerms} className='footer-hyperlink'>Terms</button> */}
                             <HashLink smooth to="/terms#myterms" className='footer-hyperlink'>Terms  </HashLink>
                         </div>
                         <p className='email'>2026 © DHANUSH GOPI</p>

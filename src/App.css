@@ -411,7 +411,7 @@ font-weight: 400;
 }
 
 .servicecard-btn{
-  width:320px;
+  width:260px;
   display: flex;
   justify-content:center;
   align-items: center;
@@ -423,6 +423,7 @@ font-weight: 400;
   border-radius: 6rem;
   transition: 0.5s;
   border: none;
+  text-decoration: none;
 }
 
 .servicecard-btn:hover{
@@ -905,8 +906,7 @@ transition: 0.5s;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  column-gap:1rem;
-  padding: 0.5rem 0rem;
+  column-gap:0.5rem;
 }
 
 
@@ -1103,7 +1103,7 @@ transition: 0.5s;
 
 .clientlogo{
   width:8rem;
-  filter: grayscale(1);
+  filter: grayscale(0);
   scale: 0.9;
   transition: 0.5s;
 }
@@ -1316,7 +1316,7 @@ font-weight: 600;
 
 .clientlogo{
   width:8rem;
-  filter: grayscale(1);
+  filter: grayscale(0);
   scale: 0.9;
   transition: 0.5s;
 }
@@ -1555,7 +1555,7 @@ font-weight: 600;
 
 .clientlogo{
   width:10rem;
-  filter: grayscale(1);
+  filter: grayscale(0);
   scale: 0.9;
   transition: 0.5s;
 }
