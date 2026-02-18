@@ -4,6 +4,7 @@ import SecBtn from "../components/SecBtn";
 
 import process from '../assets/process.svg'
 import { useNavigate } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export default function HowIWork(){
 
@@ -34,7 +35,8 @@ export default function HowIWork(){
                 </div>
                 <img src={howiworkthumbnail} alt="How I Work Thumbnail" className="howiwork-thumbnail" />
             </div>
-            <SecBtn extlink={gotoTerms} btntext="Read More..."/>
+            {/* <SecBtn extlink={gotoTerms} btntext="Read More..."/> */}
+            <HashLink smooth to="/terms#myterms" className='secbtn'>Read More...</HashLink>
         </div>
     )
 

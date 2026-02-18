@@ -489,6 +489,7 @@ font-weight: 400;
   border-radius: 6rem;
   transition: 0.5s;
   border: 2px solid var(--blue2);
+  text-decoration: none;
 }
 
 .secbtn:hover{
