@@ -16,6 +16,7 @@
   --archivo:"Archivo", sans-serif;
   --archivonarrow:"Archivo Narrow", sans-serif;
   --poppins:"Poppins", sans-serif;
+  --climatecrisis: "Climate Crisis", sans-serif;
 }
 
 *{
@@ -238,10 +239,6 @@ html {
   line-height: 0.8;
   letter-spacing: -2px;
   color: var(--black1);
-  background: #1E1E1E;
-  background: linear-gradient(to top, #1E1E1E 0%, #000000 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .herosec-subtitle{
@@ -585,6 +582,14 @@ background: linear-gradient(to top, #4F20D2 0%, #006DE1 100%);
 transition: 0.5s;
 }
 
+.reviewcard:hover .review-title{
+  background: #4F20D2;
+background: linear-gradient(to top, #4F20D2 0%, #006DE1 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+transition: 0.5s;
+}
+
 .reviewer-content{
   display: flex;
   justify-content: center;
@@ -666,22 +671,25 @@ background: linear-gradient(to top, #4F20D2 0%, #006DE1 100%);
 }
 
 
-.footer-bottom{
-  font-family: var(--archivonarrow);
+.footer-bottom {
+  font-family: var(--climatecrisis);
   font-size: 10rem;
-  font-weight:900;
-  line-height: 2cap;
-  letter-spacing: -15px;
+  font-weight: 900;
+  line-height: 0.9;
+  letter-spacing: 1px;
   color: var(--black2);
+  margin: 0;
+  display: inline-block;
   transition: 0.5s;
 }
 
-.footer-bottom:hover{
-  background: #4F20D2;
-background: linear-gradient(to top, #4F20D2 0%, #006DE1 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-transition: 0.5s;
+.footer-bottom:hover {
+  background: linear-gradient(to top, #4F20D2 0%, #006DE1 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  transition: 0.5s;  
 }
 
 /*Terms*/
