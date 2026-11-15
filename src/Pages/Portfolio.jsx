@@ -1,4 +1,5 @@
 import MobNavbarBtns from "../components/MobNavbarBtns";
+import FooterStrip from "../sections/FooterStrip";
 import MobNavbarSec from "../sections/MobNavbarSec";
 import NavbarSec from "../sections/NavbarSec";
 
@@ -10,6 +11,7 @@ export default function Portfolio(){
             <MobNavbarSec/>
             <NavbarSec/>
             <Segment6/>
+            <FooterStrip/>
             </div>
     );
 }

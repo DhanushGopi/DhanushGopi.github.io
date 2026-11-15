@@ -1,3 +1,4 @@
+import FooterStrip from "../sections/FooterStrip";
 import MobNavbarSec from "../sections/MobNavbarSec";
 import NavbarSec from "../sections/NavbarSec";
 import Segment1 from "../sections/Segment1";
@@ -14,6 +15,7 @@ export default function Home(){
             <Segment2/>
             <Segment3/>
             <Segment4/>
+            <FooterStrip/>
             </div>
     );
 }

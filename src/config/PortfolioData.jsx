@@ -58,6 +58,14 @@ import bc57 from '../assets/thumbnails/bc57.png';
 import bc58 from '../assets/thumbnails/bc58.png';
 import bc59 from '../assets/thumbnails/bc59.png';
 import bc60 from '../assets/thumbnails/bc60.png';
+import bc61 from '../assets/thumbnails/bc61.png';
+import bc62 from '../assets/thumbnails/bc62.png';
+import bc63 from '../assets/thumbnails/bc63.png';
+import bc64 from '../assets/thumbnails/bc64.png';
+import bc65 from '../assets/thumbnails/bc65.png';
+import bc66 from '../assets/thumbnails/bc66.png';
+import bc67 from '../assets/thumbnails/bc67.png';
+
 
 import Designchip from '../components/Chips/Designchip';
 import Devchip from '../components/Chips/Devchip';
@@ -157,6 +165,83 @@ import PalleteLogo from '../components/Chips/PalleteLogo';
 
 
 const portfolioData = [
+    {
+    id: 67,
+    title: "Selfie Thiruvizha 2026",
+    date: "Jun 2026",
+    image: bc67,
+    description: "A campaign to celebrate the Happy moment of family and diwali.",
+    link: "https://www.dinamani.com/diwali2026",
+    category: "uxdesign",
+    stack: [<FigmaLogo/>],
+    chip: <Designchip/>,
+    },
+    {
+    id: 66,
+    title: "Motherinlaw day",
+    date: "Jun 2026",
+    image: bc66,
+    description: "A campaign to celebrate the beauty of Mother-in-law Day 2026",
+    link: "https://www.dinamani.com/mother-in-law-day",
+    category: "uxdesign",
+    stack: [<FigmaLogo/>],
+    chip: <Designchip/>,
+    },
+    {
+    id: 65,
+    title: "Sacred Renewal 2026",
+    date: "Jun 2026",
+    image: bc65,
+    description: "A digital campaign feature the Madurai Maha Kumbabishekam 2026.",
+    link: "https://www.dinamani.com/madurai-meenakshi-amman-kumbabishekam-2026",
+    category: "uxdesign",
+    stack: [<FigmaLogo/>],
+    chip: <Designchip/>,
+    },
+     {
+    id: 64,
+    title: "Kananak",
+    date: "Jul 2026",
+    image: bc64,
+    description: "A expense tracker help users to track spending, understand and manage money better.",
+    link: "https://dhanushgopi.github.io/kananak/",
+    category: "webdev",
+    stack: [<FigmaLogo/>, <Javascript/>],
+    chip: <Designchip/>,
+    },
+    {
+    id: 63,
+    title: "Alavu",
+    date: "Aug 2026",
+    image: bc63,
+    description: "A smart tool to resize and optimize ad creatives for digital publishing.",
+    link: "http://alavubeta.onrender.com/",
+    category: "webdev",
+    stack: [<FigmaLogo/>,<Javascript/>,<Firebase/>],
+    chip: <Designchip/>,
+    },
+    {
+    id: 62,
+    title: "CM Vijay Special Page",
+    date: "Jun 2026",
+    image: bc62,
+    description: "A digital campaign feature the social welfare and political history.",
+    link: "https://www.dinamani.com/hbdcmvijay",
+    category: "uxdesign",
+    stack: [<FigmaLogo/>],
+    chip: <Designchip/>,
+    },
+    {
+    id: 61,
+    title: "CyberShield 360° V2.0",
+    date: "Oct 2026",
+    image: bc61,
+    description: "A digital awareness campaign feature rebranding, website design in five media brands.",
+    link: "https://www.behance.net/gallery/258185407/Cyber-Shield-360-Version20-%282026-year-edition%29",
+    category: "uxdesign",
+    stack: [<FigmaLogo/>],
+    chip: <Designchip/>,
+    },
     {
     id: 60,
     title: "Creatives for Zuppa",
@@ -817,7 +902,88 @@ const portfolioData = [
     stack:[<Illustrator/>],
     chip: <Designchip/>,
     },
+
+
     //Best works
+    
+    
+    {
+    id: 61,
+    title: "CyberShield 360° V2.0",
+    date: "Oct 2026",
+    image: bc61,
+    description: "A digital awareness campaign feature rebranding, website design in five media brands.",
+    link: "https://www.behance.net/gallery/258185407/Cyber-Shield-360-Version20-%282026-year-edition%29",
+    category: "bestworks",
+    stack: [<FigmaLogo/>],
+    chip: <Designchip/>,
+    },
+    {
+    id: 63,
+    title: "Alavu",
+    date: "Aug 2026",
+    image: bc63,
+    description: "A smart tool to resize and optimize ad creatives for digital publishing.",
+    link: "http://alavubeta.onrender.com/",
+    category: "bestworks",
+    stack: [<FigmaLogo/>,<Javascript/>,<Firebase/>],
+    chip: <Designchip/>,
+    },
+    {
+    id: 62,
+    title: "CM Vijay Special Page",
+    date: "Jun 2026",
+    image: bc62,
+    description: "A digital campaign feature the social welfare and political history.",
+    link: "https://www.dinamani.com/hbdcmvijay",
+    category: "bestworks",
+    stack: [<FigmaLogo/>],
+    chip: <Designchip/>,
+    },
+    {
+    id: 67,
+    title: "Selfie Thiruvizha 2026",
+    date: "Jun 2026",
+    image: bc67,
+    description: "A campaign to celebrate the Happy moment of family and diwali.",
+    link: "https://www.dinamani.com/diwali2026",
+    category: "bestworks",
+    stack: [<FigmaLogo/>],
+    chip: <Designchip/>,
+    },
+    {
+    id: 66,
+    title: "Motherinlaw day",
+    date: "Jun 2026",
+    image: bc66,
+    description: "A campaign to celebrate the beauty of Mother-in-law Day 2026",
+    link: "https://www.dinamani.com/mother-in-law-day",
+    category: "bestworks",
+    stack: [<FigmaLogo/>],
+    chip: <Designchip/>,
+    },
+    {
+    id: 65,
+    title: "Sacred Renewal 2026",
+    date: "Jun 2026",
+    image: bc65,
+    description: "A digital campaign feature the Madurai Maha Kumbabishekam 2026.",
+    link: "https://www.dinamani.com/madurai-meenakshi-amman-kumbabishekam-2026",
+    category: "bestworks",
+    stack: [<FigmaLogo/>],
+    chip: <Designchip/>,
+    },
+     {
+    id: 64,
+    title: "Kananak",
+    date: "Jul 2026",
+    image: bc64,
+    description: "A expense tracker help users to track spending, understand and manage money better.",
+    link: "https://dhanushgopi.github.io/kananak/",
+    category: "bestworks",
+    stack: [<FigmaLogo/>, <Javascript/>],
+    chip: <Designchip/>,
+    },
     {
     id: 60,
     title: "Creatives for Zuppa",

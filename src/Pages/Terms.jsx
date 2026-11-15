@@ -1,4 +1,5 @@
 import MobNavbarBtns from "../components/MobNavbarBtns";
+import FooterStrip from "../sections/FooterStrip";
 import MobNavbarSec from "../sections/MobNavbarSec";
 import NavbarSec from "../sections/NavbarSec";
 import Segment1 from "../sections/Segment1";
@@ -13,6 +14,7 @@ export default function Terms(){
             <MobNavbarSec/>
             <NavbarSec/>
             <Segment5/>
+            <FooterStrip/>
             </div>
     );
 }
